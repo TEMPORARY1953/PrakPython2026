@@ -1,3 +1,3 @@
-data = input()
-print(data * 2)
+a, b = eval(input())
+print(max(a, b))
 
