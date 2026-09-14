@@ -1,0 +1,2 @@
+M = input()
+print('SUUUUUUUIIIIIIIII')
