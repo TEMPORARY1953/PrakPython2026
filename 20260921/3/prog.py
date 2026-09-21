@@ -5,7 +5,7 @@ while i <= n + 2:
 	k = 0
 	while j <= n + 2:
 		k += 1
-		if k < 2:
+		if k <= 2:
 			s = 0
 			t = i * j
 			while t > 0:
