@@ -8,6 +8,6 @@ if not a % 25 and a % 2:
 else: 
 	print("B - ", end="")
 if not a % 8:
-	print("C + ", end="")
+	print("C +")
 else: 
-	print("C - ")
+	print("C -")
