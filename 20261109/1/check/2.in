@@ -1,0 +1,11 @@
+Omnibus._c = {}
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.x = 10
+b.x = 20
+c.y = 30
+a.x = 99
+print(a.x, b.x, c.y)
+del b.x
+print(a.x, c.y)
+del b.x
+print(a.x)

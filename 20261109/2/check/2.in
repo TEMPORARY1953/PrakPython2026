@@ -1,0 +1,8 @@
+a = Triangle((0, 0), (6, 0), (0, 6))
+b = Triangle((1, 1), (2, 1), (1, 2))
+c = Triangle((10, 10), (12, 10), (10, 12))
+d = Triangle((1, 1), (2, 2), (3, 3))
+print(*(f"{bool(t)}:{round(abs(t), 3)}" for t in (a, b, c, d)))
+print(b < a, d < a, a < b)
+print(b in a, d in c, a in b)
+print(a & b, a & c, a & d)

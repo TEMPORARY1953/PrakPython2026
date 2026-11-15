@@ -1,0 +1,10 @@
+Omnibus._c = {}
+a, b, c = Omnibus(), Omnibus(), Omnibus()
+a.p = b.p = c.p = 1
+a.q = c.q = 2
+print(a.p, b.p, c.p, a.q, c.q)
+del a.p, c.q
+print(b.p, c.p, a.q)
+a.p = 100
+c.q = 200
+print(a.p, b.p, c.q)
