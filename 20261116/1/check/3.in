@@ -1,0 +1,4 @@
+a = DivStr("AbCdEf")
+print(*(a.lower()[1:5] // 2))
+print(a[1:5] % 3)
+print(type(a.lower()).__name__)

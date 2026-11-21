@@ -1,0 +1,4 @@
+a = DivStr("ABCDEFGHIJ")
+print(*(a // 3))
+print(a % 3)
+print(a % 4 + DivStr() + a % 3)
