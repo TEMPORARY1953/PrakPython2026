@@ -24,9 +24,9 @@ y = int(y)
 for i in range(x, y):
 	try:
 		necro(i)
-	except Zombie:
-		print("Skeleton")
 	except Skeleton:
+		print("Skeleton")
+	except Zombie:
 		print("Zombie")
 	except Undead:
 		print("Generic Undead")
